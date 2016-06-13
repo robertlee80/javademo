@@ -10,6 +10,8 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>web</module>
+        <module>iService</module>
+        <module>service</module>
     </modules>
 
     <properties>
