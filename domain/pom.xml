@@ -9,14 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>iService</artifactId>
+    <artifactId>domain</artifactId>
 
-    <dependencies>
-        <dependency>
-            <groupId>me.licq.javademo</groupId>
-            <artifactId>domain</artifactId>
-            <version>${project.version}</version>
-        </dependency>
-    </dependencies>
 
 </project>
