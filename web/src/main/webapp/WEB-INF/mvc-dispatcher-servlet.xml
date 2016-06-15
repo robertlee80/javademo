@@ -17,7 +17,5 @@
         </property>
     </bean>
 
-    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
-        <property name="dataSource" ref="dataSource" />
-    </bean>
+    <import resource="classpath*:dubbo-web.xml"></import>
 </beans>

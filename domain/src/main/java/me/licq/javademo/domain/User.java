@@ -1,9 +1,11 @@
 package me.licq.javademo.domain;
 
+import java.io.Serializable;
+
 /**
  * Created by robertlee on 6/14/16.
  */
-public class User {
+public class User implements Serializable {
     private int id;
     private String loginId;
 
